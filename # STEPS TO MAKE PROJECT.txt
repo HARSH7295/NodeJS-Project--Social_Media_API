@@ -1,0 +1,44 @@
+0> creating folder structure
+
+1> in server.js -> doing basic stuff like, making project run on port and giving some response
+
+2> creating models:
+	User -> (
+			make all required fields,
+			make pre.save functionality for hashed password,
+			make instance method to check correctness of password
+		),
+	Post -> (
+			make all required fields,
+		)
+
+3> creating db connection file:
+	
+	a> go to :C:\Program Files\MongoDB\Server\5.0\bin
+	b> run cmd : mongod --> that will run mongodb server on
+
+	c> go to studio3T and create new connection named : SocialMediaAPIDB
+	d> connect to it.
+
+	e> create connectDB function in db/DBConnect file and export it
+	f> import that function in server and call it with url : mongodb://127.0.0.1/SocialMediaAPIDB
+
+	--> connection established..
+
+4> creating routes for User
+	-> userRoutes
+
+5> creating controller for user reg,log -> authController ->{ RegisterUser, LoginUser }
+
+6> setting POSTMAN 
+
+7> checking if RegisterUser and LoginUser working properly or not
+
+8> creating authentication and authorization
+
+9> checking authentication and authorization
+
+10> creating admin routes and controllers -> getAllUsers, getUser, deleteUser
+
+11>
+	

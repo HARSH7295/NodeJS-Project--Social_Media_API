@@ -1,0 +1,7 @@
+ -> run cmd : npm run dev
+
+
+why npm run dev?
+
+ans : bcz,
+	--> in pkg.json -> defined dev cmd as : nodemon Server/server.js 
